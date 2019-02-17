@@ -16,13 +16,14 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'Flask>=1.0',
-        'py2neo>=3.0'
+        'py2neo>=3.0',
+        'prompt-toolkit>=2.0.7<2.1'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Topic :: Software Development :: Libraries :: Python Modules",
-        "Topic :: Database :: Database"
+        "Topic :: Database"
     ],
 )
